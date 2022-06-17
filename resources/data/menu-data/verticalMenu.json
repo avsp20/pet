@@ -1,0 +1,71 @@
+{
+  "menu": [
+    {
+      "url": "admin/dashboard",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "dashboard"
+    },
+
+    {
+      "navheader": "Pages",
+      "slug": ""
+    },
+    {
+      "name": "Customer",
+      "icon": "users",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/customers",
+          "name": "List",
+          "icon": "list",
+          "slug": "customers.index"
+        },
+        {
+          "url": "admin/customers/create",
+          "name": "Add",
+          "icon": "plus",
+          "slug": "customers.create"
+        },
+        {
+          "url": "admin/pet-processing",
+          "name": "Pet Processing",
+          "icon": "refresh-cw",
+          "slug": "pet-processing"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "icon": "bar-chart-2",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "admin/businesses",
+          "name": "List",
+          "icon": "list",
+          "slug": "businesses.index"
+        },
+        {
+          "url": "admin/businesses/create",
+          "name": "Add",
+          "icon": "plus",
+          "slug": "businesses.create"
+        }
+      ]
+    },
+    {
+      "url": "admin/calendar",
+      "name": "Calendar",
+      "icon": "calendar",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "admin/settings",
+      "name": "Settings",
+      "icon": "settings",
+      "slug": "app-settings"
+    }
+  ]
+}
